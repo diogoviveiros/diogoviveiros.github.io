@@ -1,3 +1,5 @@
+<a href="{{ '/about/' | relative_url }}">About</a>
+
 # Data Scientist
 
 ## About Me
