@@ -1,4 +1,4 @@
-<a href="{{ '/about/' | relative_url }}">About</a>
+<a href="{{ '/' | relative_url }}">About</a>
 <a href="{{ '/career/' | relative_url }}">Career</a>
 <a href="{{ '/projects/' | relative_url }}">Projects</a>
 
