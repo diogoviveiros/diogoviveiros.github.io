@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: archive
 title: Career
 permalink: /cv/
 author_profile: true
