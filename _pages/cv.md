@@ -2,6 +2,7 @@
 layout: default
 title: Career
 permalink: /cv/
+author_profile: true
 ---
 # Resume
 
