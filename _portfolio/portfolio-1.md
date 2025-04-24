@@ -2,7 +2,7 @@
 title: "Clustering Project"
 excerpt: "Flask app for clustering text data from CSV files using transformer-based NLP<br/><img src='/images/500x300.png'>"
 collection: portfolio
----
+
 
 This project is a Flask-based web app that performs text clustering on CSV data — ideal for quickly identifying themes or duplicate content from unstructured text.
 
@@ -22,7 +22,7 @@ This project is a Flask-based web app that performs text clustering on CSV data 
 - Real-time clustering feedback  
 - Downloadable clustered results  
 - Adjustable clustering sensitivity or fixed count
-
+---
 ---
 title: "Walkability and Obesity Analysis"
 excerpt: "Regression analysis of walkability's impact on obesity across U.S. counties<br/><img src='/images/500x300.png'>"
