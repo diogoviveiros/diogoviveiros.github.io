@@ -1,5 +1,5 @@
 ---
-title: "Clustering Project"
+title: "Topic Similarity Clustering"
 excerpt: "Flask app for clustering text data from CSV files using transformer-based NLP<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
@@ -23,3 +23,4 @@ This project is a Flask-based web app that performs text clustering on CSV data 
 - Downloadable clustered results  
 - Adjustable clustering sensitivity or fixed count
 
+[View Project on Github](https://github.com/diogoviveiros/Topic-Similarity-Clustering)
