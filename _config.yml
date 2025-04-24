@@ -22,10 +22,10 @@ repository               : "diogoviveiros/diogoviveiros.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "Diogo Picture.jpg"
   name             : "Diogo Viveiros"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  pronouns         : "he/him"  
+  bio              : ""
   location         : "Dallas, TX"
   employer         : "Microsoft"
   uri              : # URL
