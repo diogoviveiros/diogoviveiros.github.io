@@ -1,5 +1,5 @@
 ---
-title: "Walkability and Obesity Analysis"
+title: "Analysis of County Walkability Ratings on Obesity Outcomes"
 excerpt: "Regression analysis of walkability's impact on obesity across U.S. counties<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
