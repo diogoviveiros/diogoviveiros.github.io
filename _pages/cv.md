@@ -7,9 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-
-# Resume
-
 **Dallas, TX**  
 📧 [diogopviveiros@gmail.com](mailto:diogopviveiros@gmail.com)  
 📞 (774) 319-1247  
