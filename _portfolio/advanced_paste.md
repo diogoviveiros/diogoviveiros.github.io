@@ -22,4 +22,4 @@ Advanced Paste is a productivity tool designed to reduce context-switching in re
   Your browser does not support the video tag.
 </video>
 
-Or [click here to watch the video](assets/ClipboardTemplate.mp4).
+[View Project on Github](https://github.com/diogoviveiros/EnhancedClipboardWPF)
