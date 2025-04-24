@@ -1,9 +1,13 @@
 ---
 layout: archive
-title: Career
+title: "Career"
 permalink: /cv/
 author_profile: true
 ---
+
+{% include base_path %}
+
+
 # Resume
 
 **Dallas, TX**  
