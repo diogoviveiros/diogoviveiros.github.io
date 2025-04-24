@@ -38,3 +38,5 @@ Higher scores = greater walkability.
 - Adjusted R² = 0.385 — the model explains ~38.5% of variance in obesity rates.  
 - **Walkability (`NatWalkInd`) was statistically significant** (p < 0.001).  
 - **Coefficient = -0.8663**: Each 1-point increase in walkability lowers obesity by ~0.87 percentage points.
+
+[View Project on Github](https://github.com/diogoviveiros/Walkability-vs-Obesity)
