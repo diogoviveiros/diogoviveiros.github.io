@@ -13,22 +13,28 @@ This project explores whether the EPA's National Walkability Index can predict o
 - **CDC PLACES** (obesity, healthcare access)
 Merged by county FIPS codes.
 
-**Methodology**
-Multivariate OLS regression with controls for:
-- Healthcare access (`ACCESS2_AdjPrev`)
-- Population size (`TotalPopulation`)
-- Job accessibility (`Ac_Total`, `Ac_Unpr`)
-- Demographics (`Pct_AO0`)
-- Income (`R_PCTLOWWAGE`)
-- Walkability (`NatWalkInd`)
+**Methodology**  
+A multivariate OLS regression model was used to test how walkability affects obesity, adjusting for:
 
-**📍 About NatWalkInd**
-EPA's composite walkability score (0–20) including:
-- Street connectivity
-- Land use diversity
-- Transit proximity
+| Variable           | Description                              | Control Purpose                                         |
+|--------------------|------------------------------------------|----------------------------------------------------------|
+| `ACCESS2_AdjPrev`  | % without health insurance               | Controls for disparities in healthcare access            |
+| `TotalPopulation`  | County population                        | Proxy for urban vs rural context                         |
+| `Ac_Total`         | Total job accessibility                  | Reflects economic development and opportunity            |
+| `Ac_Unpr`          | Access to unprotected/unstable jobs      | Captures economic vulnerability                         |
+| `Pct_AO0`          | Demographic group %                      | Adjusts for demographic variation in obesity risk        |
+| `R_PCTLOWWAGE`     | % earning low wages                      | Controls for income-related health disparities           |
+| `NatWalkInd`       | National Walkability Index               | **Primary variable of interest**                         |
 
-**📈 Key Findings**
-- Adjusted R² = 0.385
-- `NatWalkInd` statistically significant (p < 0.001)
-- Coefficient = -0.8663: A 1-point rise in walkability reduces obesity by ~0.87 percentage points
+**📍 What is NatWalkInd?**  
+The **National Walkability Index** is a composite EPA score (0–20 scale) that measures:
+- Street connectivity (intersection density)  
+- Land use diversity  
+- Transit proximity  
+
+Higher scores = greater walkability.
+
+**📈 Key Findings**  
+- Adjusted R² = 0.385 — the model explains ~38.5% of variance in obesity rates.  
+- **Walkability (`NatWalkInd`) was statistically significant** (p < 0.001).  
+- **Coefficient = -0.8663**: Each 1-point increase in walkability lowers obesity by ~0.87 percentage points.
