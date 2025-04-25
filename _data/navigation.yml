@@ -10,7 +10,7 @@
 main:
       
   - title: "Projects"
-    url: /portfolio/
+    url: /projects/
     
   - title: "Career"
     url: /cv/
