@@ -1,6 +1,6 @@
 ---
 title: "Analysis of County Walkability Ratings on Obesity Outcomes"
-excerpt: "Regression analysis of walkability's impact on obesity across U.S. counties<br/><img src='/images/500x300.png'>"
+excerpt: "Regression analysis of walkability's impact on obesity across U.S. counties<br/>"
 collection: portfolio
 ---
 This project explores whether the EPA's National Walkability Index can predict obesity rates when controlling for socioeconomic and access-related variables.
