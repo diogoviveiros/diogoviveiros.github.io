@@ -1,6 +1,6 @@
 ---
 title: "Advanced Paste for Windows"
-excerpt: "Clipboard and template integration tool for email-heavy workflows<br/><img src='/images/500x300.png'>"
+excerpt: "Clipboard and template integration tool for email-heavy workflows<br/>"
 collection: portfolio
 ---
 
