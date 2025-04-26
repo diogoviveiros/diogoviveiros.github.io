@@ -12,7 +12,7 @@ Our project consists of two robots (a chaser and a runner) playing tag. The runn
 The chaser achieves this by storing a history of the runner's locations and using statistical extrapolation algorithms to predict the runner's path. Then, it uses proportional control to move toward the predicted coordinate of the runner. Once the chaser tags the runner with its bumper sensor, the chaser stops.
 
 
-![Chasing](https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif)
+![Chasing](_portfolio/files/chasing.gif)
 ![GIF of Tag UI](https://github.com/diogoviveiros/diogoviveiros.github.io/blob/master/_portfolio/files/chasing.gif)
 
 ![GIF of Tag UI](https://github.com/diogoviveiros/diogoviveiros.github.io/blob/master/_portfolio/files/chasing.gif)
