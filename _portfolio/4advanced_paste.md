@@ -1,5 +1,5 @@
 ---
-title: "Advanced Paste for Windows"
+title: "Advanced Paste Clipboard for Windows"
 excerpt: "Clipboard and template tool for Windows as a part of the Microsoft PowerToys project."
 collection: portfolio
 ---
