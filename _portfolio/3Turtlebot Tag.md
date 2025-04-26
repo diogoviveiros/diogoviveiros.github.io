@@ -13,6 +13,7 @@ The chaser achieves this by storing a history of the runner's locations and usin
 
 
 ![Chasing](https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif)
+![GIF of Tag UI](https://github.com/diogoviveiros/diogoviveiros.github.io/blob/master/_portfolio/files/chasing.gif)
 
 ![GIF of Tag UI](https://github.com/diogoviveiros/diogoviveiros.github.io/blob/master/_portfolio/files/chasing.gif)
 
