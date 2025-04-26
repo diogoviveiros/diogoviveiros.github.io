@@ -4,7 +4,7 @@ excerpt: "Clipboard and template tool for Windows as a part of the Microsoft Pow
 collection: portfolio
 ---
 
-Advanced Paste is a productivity tool designed to reduce context-switching in repetitive communication tasks, especially emails. Developed with the Microsoft PowerToys team.
+Advanced Paste is a productivity tool designed to reduce context-switching in repetitive communication tasks, like emails. Developed in collaboration with the Microsoft PowerToys team, who are committed to bringing power users a set of open source tool packages for productivity improvements.
 
 **The Problem**
 - 28% of office time is spent on email.
