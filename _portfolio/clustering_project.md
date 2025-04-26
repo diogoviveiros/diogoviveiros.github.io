@@ -1,6 +1,6 @@
 ---
 title: "Topic Similarity Clustering"
-excerpt: "Flask app for clustering text data from CSV files using transformer-based NLP<br/>"
+excerpt: "Flask app for clustering topics from CSV files using a transformer architecture combined with hierarchichal clustering methods."
 collection: portfolio
 ---
 
