@@ -10,7 +10,7 @@ This project explores whether the EPA's National Walkability Index can predict o
 
 **📊 Data Sources**
 - **EPA SMART Location Database** (walkability, job access, land use). [Data Source](https://edg.epa.gov/EPADataCommons/public/OA/EPA_SmartLocationDatabase_V3_Jan_2021_Final.csv&ved=2ahUKEwj7saz6ifaMAxW_6skDHROHNbcQFnoECAkQAQ&usg=AOvVaw1UdRhZzOGczkM3felPCxRK)
-- **CDC PLACES** (obesity, healthcare access) Merged by county FIPS codes.  [Data Source](https://data.cdc.gov/500-Cities-Places/PLACES-County-Data-GIS-Friendly-Format-2024-releas/i46a-9kgh/about_data)
+- **CDC PLACES** (obesity, healthcare access).  [Data Source](https://data.cdc.gov/500-Cities-Places/PLACES-County-Data-GIS-Friendly-Format-2024-releas/i46a-9kgh/about_data)
 
 **Methodology**  
 A multi-variate Ordinary Least Squares (OLS) regression model was used to test how walkability affects obesity, adjusting for:
