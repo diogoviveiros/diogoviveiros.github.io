@@ -11,7 +11,9 @@ Our project consists of two robots (a chaser and a runner) playing tag. The runn
 
 The chaser achieves this by storing a history of the runner's locations and using statistical extrapolation algorithms to predict the runner's path. Then, it uses proportional control to move toward the predicted coordinate of the runner. Once the chaser tags the runner with its bumper sensor, the chaser stops.
 
-![GIF of Tag Game](1_0_GIF_0)
+
+!![GIF of Tag Game](files/chasing.GIF)
+!![GIF of Tag UI](files/Tag_UI.GIF)
 
 This project is interesting because it solves problems that person-following code cannot. Specifically, our model can predict future paths more accurately, allowing the chaser to tag the runner even at a lower speed.
 
@@ -28,7 +30,7 @@ When one or more AR tags are detected:
 - This helps estimate a LIDAR angle for more precise distance measurement.
 - The estimated distance and angle, along with a timestamp, are published to the `angle_vectors` topic for use in `prediction.py`.
 
-![AR Tag Detection Diagram](Screen%20Shot%202022-05-27%20at%201%2033%2052%20AM)
+![Runner Detection](files/Runner_Detection.png)
 
 ## Path Prediction
 
@@ -45,7 +47,7 @@ We visualize the position history as yellow pose arrows in RVIZ, and after gathe
 - Use this to estimate where the runner will be in the future, depending on distance and chaser's max speed.
 - The predicted position is displayed as a green marker in RVIZ.
 
-![Coordinate Calculation Diagram](xy.png)
+![Path Prediction](files/Path_Prediction.png)
 
 We also correct for the chaser's rotation by combining the target angle with the chaser’s rotation from the x-axis.
 
