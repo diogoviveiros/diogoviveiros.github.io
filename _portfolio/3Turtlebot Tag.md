@@ -13,6 +13,7 @@ The chaser achieves this by storing a history of the runner's locations and usin
 
 
 !![GIF of Tag Game](files/chasing.GIF)
+
 !![GIF of Tag UI](files/Tag_UI.GIF)
 
 This project is interesting because it solves problems that person-following code cannot. Specifically, our model can predict future paths more accurately, allowing the chaser to tag the runner even at a lower speed.
