@@ -14,7 +14,7 @@ This project explores whether the EPA's National Walkability Index can predict o
 Merged by county FIPS codes.
 
 **Methodology**  
-A multivariate OLS regression model was used to test how walkability affects obesity, adjusting for:
+A multivariate Ordinary Least Squares (OLS) regression model was used to test how walkability affects obesity, adjusting for:
 
 | Variable           | Description                              | Control Purpose                                         |
 |--------------------|------------------------------------------|----------------------------------------------------------|
