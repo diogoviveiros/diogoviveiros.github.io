@@ -14,7 +14,7 @@ The chaser achieves this by storing a history of the runner's locations and usin
 
 ![Chasing](https://github.com/diogoviveiros/diogoviveiros.github.io/blob/master/_portfolio/files/chasing.gif)
 
-
+<img src='/images/500x300.png'>
 
 This project is interesting because it solves problems that person-following code cannot. Specifically, our model can predict future paths more accurately, allowing the chaser to tag the runner even at a lower speed.
 
