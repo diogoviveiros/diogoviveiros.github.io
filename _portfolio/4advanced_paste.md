@@ -16,7 +16,7 @@ Advanced Paste is a productivity tool designed to reduce context-switching in re
 - Less app switching, more focus.
 - Great for roles like Support Engineers with repetitive messaging needs.
 
-**🎬 Demo Video**
+**Demonstration Video**
 <video width="100%" controls>
   <source src="/images/PowerClipboardGoldenPath.mp4" type="video/mp4">
   Your browser does not support the video tag.
