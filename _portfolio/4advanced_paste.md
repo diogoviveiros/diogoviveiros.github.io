@@ -18,7 +18,7 @@ Advanced Paste is a productivity tool designed to reduce context-switching in re
 
 **🎬 Demo Video**
 <video width="100%" controls>
-  <source src="https://github.com/diogoviveiros/diogoviveiros.github.io/blob/master/assets/PowerClipboardGoldenPath.mp4" type="video/mp4">
+  <source src="/images/PowerClipboardGoldenPath.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
