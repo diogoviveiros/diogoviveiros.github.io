@@ -1,6 +1,6 @@
 ---
 title: "Robotics: Turtlebot Tag"
-excerpt: "Final Project for my UChicago Robotics Class. Using Python to program two robots - a chaser and a runner - to play a game of tag with each other. Developed path prediction algorithm to predict runner's future location"
+excerpt: "Coding in Python to program two robots - a chaser and a runner - to play a game of tag with each other. Developed path prediction algorithm to predict runner's future location"
 collection: portfolio
 ---
 
@@ -14,7 +14,7 @@ The chaser achieves this by storing a history of the runner's locations and usin
 
 ![Chasing](/images/chasing.gif)
 
-<img src='/images/500x300.png'>
+![Tag_UI](/images/Tag_UI.gif)
 
 This project is interesting because it solves problems that person-following code cannot. Specifically, our model can predict future paths more accurately, allowing the chaser to tag the runner even at a lower speed.
 
@@ -31,7 +31,7 @@ When one or more AR tags are detected:
 - This helps estimate a LIDAR angle for more precise distance measurement.
 - The estimated distance and angle, along with a timestamp, are published to the `angle_vectors` topic for use in `prediction.py`.
 
-![Runner Detection](files/Runner_Detection.png)
+![Runner Detection](/images/Runner_Detection.png)
 
 ## Path Prediction
 
@@ -48,7 +48,7 @@ We visualize the position history as yellow pose arrows in RVIZ, and after gathe
 - Use this to estimate where the runner will be in the future, depending on distance and chaser's max speed.
 - The predicted position is displayed as a green marker in RVIZ.
 
-![Path Prediction](files/Path_Prediction.png)
+![Path Prediction](/images/Path_Prediction.png)
 
 We also correct for the chaser's rotation by combining the target angle with the chaser’s rotation from the x-axis.
 
