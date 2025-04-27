@@ -9,7 +9,7 @@ Advanced Paste is a productivity tool designed to reduce context-switching in re
 
 For this project, I took on both Developer and Product Manager roles: I coded a working prototype, conducted market research, created user flows and a golden path, and developed presentations along with a comprehensive set of visual guidelines to help convince stakeholders of the project’s value.
 
-**The Problem**
+# The Problem
 From Executive Assistants managing schedules, to Support Engineers sending scoping questions or running PowerShell scripts, to Software Developers drafting detailed reports on their code, a large part of a modern professional’s day is dedicated to writing.
 
 Often, this typing is repetitive: sending the same email templates, submitting standardized code reviews, or executing familiar scripts. To streamline these tasks, many users rely on programs like OneNote to store templates, which is a reasonable solution. However, switching to another application, locating the right template, copying it, and pasting it back into the original workspace introduces unnecessary friction. While each instance may only take a few seconds or minutes, over the course of a day, a week, a career, the lost time can add up significantly.
@@ -20,7 +20,7 @@ One productivity tool I frequently use to help alleviate this issue is the Windo
 
 These challenges could be avoided with a faster, more seamless way to insert and edit templates directly within the program you’re working in—without ever leaving your current context. That is exactly what I propose. 
 
-**The Solution**
+# The Solution
 
 To address the problems of repetitive typing, inefficient template management, and distracting context-switching, I propose a solution that seamlessly integrates clipboard functionality with customizable templates—all without ever leaving the app you’re working in. The goal is simple: less app switching, more focus.
 
@@ -30,7 +30,7 @@ Additionally, key quality-of-life features should be built in. Users should be a
 
 This seamless workflow not only saves time but also reduces distractions, helping users stay focused on their primary task without bouncing between multiple applications. This tool is especially valuable for roles like Support Engineers, who often rely on repetitive messaging when communicating with customers. Instead of breaking their workflow to retrieve templates from a separate app, users can access, edit, and insert frequently used text snippets instantly.
 
-**Golden Path (with Video)**
+# Golden Path (with Video)
 
 - The user identifies some text that they use frequently (sending emails, running a script command, etc)
 - The user adds this text as a template by using a shortcut (currently ctrl + alt + c). The template item is now added to the tool.
@@ -48,6 +48,6 @@ This seamless workflow not only saves time but also reduces distractions, helpin
   Your browser does not support the video tag.
 </video>
 
-**User Flows** 
+# User Flows Diagram 
 
 <img src ="/images/Advanced_Paste_User_Flows.png">
