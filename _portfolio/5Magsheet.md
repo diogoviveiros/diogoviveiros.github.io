@@ -24,6 +24,7 @@ During my time at the Actuated Experiences Laboratory, I led the research of our
 - **Education and Accessibility Tools:** Tactile learning surfaces for students with visual impairments that can update in real-time.
 
 # Hardware Development:
+My main contributions to the project was in the improvement of the motor driver firmware and in the design of additional sensing boards, which were then manufactured into the versions seen below. The hall-effect sensor board was particularly important as it allowed us to control the position of the magnets using Magsheet. Once prototyping was concluded, we could then bin out the same board but in a flexible PCB form-factor.
 
 ![Magsheet Control Board](/images/Magsheet_Control_Board.png) 
 ![Hall Effect Sensor Board](/images/HallEffect_Sensor_Magsheet.png)
