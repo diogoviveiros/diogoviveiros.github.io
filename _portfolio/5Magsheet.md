@@ -25,6 +25,8 @@ During my time at the Actuated Experiences Laboratory, I led the research of our
 
 # Hardware Development:
 
+![Magsheet Control Board](/images/Magsheet Control Board.jpg) 
+![Hall Effect Sensor Board](/images/HallEffect_Sensor_Magsheet.jpg)
 
 
 # Software Development: 
