@@ -3,7 +3,7 @@ title: "Robotics: Turtlebot Tag"
 excerpt: "Coding in Python to program two robots - a chaser and a runner - to play a game of tag with each other. Developed path prediction algorithm to predict runner's future location"
 collection: portfolio
 ---
-
+[View Project on Github](https://github.com/diogoviveiros/Tag_Final_Project)
 
 # Project Description
 
@@ -114,6 +114,3 @@ We plan to:
 - We learned how to attach new sensors (e.g. touch sensor) to the OpenCR board.
 - We learned how to utilize RVIZ to debug our project code and visualize the runner’s travel history and predicted path.
 - We learned how to employ a prediction model to estimate the future location of a runner based on past trajectory data.
-
-
-[View Project on Github](https://github.com/diogoviveiros/Tag_Final_Project)
