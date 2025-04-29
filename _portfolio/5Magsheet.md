@@ -43,3 +43,9 @@ All firmware was coded by our team using the Arduino IDE. For UI interaction, th
 - **Trace Fragility:** During a lot of our experiments, we've noted that our flexible PCBs' copper traces could sometimes bend excessively and break. Ultimately, while the form factor is flexible, the copper traces within the PCB is still solid copper, and as such we must be careful with them breaking. We want to implement future designs with reinforced regions that will not be flexible but will protect the traces from being broken as easily. 
 
 # Demo Video:
+
+<video width="100%" controls>
+  <source src="/images/Magsheet_Demo_Video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
