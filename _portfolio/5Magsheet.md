@@ -8,29 +8,36 @@ During my time at the Actuated Experiences Laboratory, I led the research of our
 
 # Core Features:
 
-- Ultra-Thin Form Factor: By embedding magnetic field generators directly onto a flexible PCB, Magsheet can be as thin as a sheet of paper, enabling seamless integration into books, folders, clothing, or ultra-slim devices.
+- **Ultra-Thin Form Factor:** By embedding magnetic field generators directly onto a flexible PCB, Magsheet can be as thin as a sheet of paper, enabling seamless integration into books, folders, clothing, or ultra-slim devices.
   
-- Flexibility: Magsheet can wrap around objects like handles, wearables, or irregular surfaces, bringing dynamic haptic feedback to areas where rigid materials would fail.
+- **Flexibility:** Magsheet can wrap around objects like handles, wearables, or irregular surfaces, bringing dynamic haptic feedback to areas where rigid materials would fail.
 
-- Magsheet allows for electronic control of the magnetic fields. This opens the door to dynamic changes in feedback over time, controlled by software or sensors (for example, using hall-effect sensors to detect the position of a magnet, and then using Magsheet to move it to a specified location).
+- **Additional Sensing:** Magsheet allows for electronic control of the magnetic fields. This opens the door to dynamic changes in feedback over time, controlled by software or sensors (for example, using hall-effect sensors to detect the position of a magnet, and then using Magsheet to move it to a specified location).
 
   
 # Example Applications:
 
-- Interactive Books: Pages that can produce haptic sensations like bumps, ridges, or textures as you read.
+- **Interactive Books:** You could place a magnet on top of a page and have it guide the user to where they should be focusing on.
 
-- Wearable Haptic Systems: Clothing that can gently guide or alert the wearer through localized magnetic forces.
+- **Wearable Haptic Systems:** Clothing that can gently guide or alert the wearer through localized magnetic forces.
 
-- Education and Accessibility Tools: Tactile learning surfaces for students with visual impairments that can update in real-time.
+- **Education and Accessibility Tools:** Tactile learning surfaces for students with visual impairments that can update in real-time.
 
 # Hardware Development:
 
 
 
 # Software Development: 
+All firmware was coded by our team using the Arduino IDE. For UI interaction, the Processing library was used. This allowed for quick, on the fly changes while also letting us use several different sensing layers, such as manipulating the magnet with the motor driver while also checking the position of the magnet with the hall-effect sensing board I created, all in one platform. 
 
 # Constraints:
 
-- Heat:
-- Power Draw:
-- Trace Fragility:
+- **Heat:** Magnetic coils can produce a large amount of heat after only a few seconds of operation. These can quickly melt the PET layer of the PCB if not managed properly, so these coils can only ever be used to create magnetic fields in bursts, and not operate them constantly. We could try implementing heatsinks at the cost of weight and flexiblity.
+  
+- **Power Draw:** When driving these coils, we must use motor units that can draw quite a lot of power compared to the strength of the magnetic field, making lightweight applications using components such as batteries not completely irrelevant, but certainly challenging. 
+
+- **Magnetic Strength:** Ultimately, these coils are being composed of layers of very thin copper traces, and as such their magnetic strength is not large. We have circumvented this by using stronger magnets to compensate. However, in the future, I would like to add a sheet layer of ferromagnetic material to try and enhance the strength of the magnetic field, at the cost of some flexibility. The other benefit, however, would be that some rigidity would be added to the PCB, increasing its material strength. 
+
+- **Trace Fragility:** During a lot of our experiments, we've noted that our flexible PCBs' copper traces could sometimes bend excessively and break. Ultimately, while the form factor is flexible, the copper traces within the PCB is still solid copper, and as such we must be careful with them breaking. We want to implement future designs with reinforced regions that will not be flexible but will protect the traces from being broken as easily. 
+
+# Demo Video:
