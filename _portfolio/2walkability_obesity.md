@@ -7,14 +7,14 @@ collection: portfolio
 
 This project explores whether the EPA's National Walkability Index can predict obesity rates when controlling for socioeconomic and access-related variables.
 
-**Key Question**
+# Key Question
 > Does walkability predict obesity rates when adjusting for other factors?
 
-**📊 Data Sources**
+# Data Sources
 - **EPA SMART Location Database** (walkability, job access, land use). [Data Source](https://edg.epa.gov/EPADataCommons/public/OA/EPA_SmartLocationDatabase_V3_Jan_2021_Final.csv&ved=2ahUKEwj7saz6ifaMAxW_6skDHROHNbcQFnoECAkQAQ&usg=AOvVaw1UdRhZzOGczkM3felPCxRK)
 - **CDC PLACES** (obesity, healthcare access).  [Data Source](https://data.cdc.gov/500-Cities-Places/PLACES-County-Data-GIS-Friendly-Format-2024-releas/i46a-9kgh/about_data)
 
-**Methodology**  
+# Methodology   
 A multi-variate Ordinary Least Squares (OLS) regression model was used to test how walkability affects obesity, adjusting for:
 
 | Variable           | Description                              | Control Purpose                                         |
@@ -27,7 +27,7 @@ A multi-variate Ordinary Least Squares (OLS) regression model was used to test h
 | `R_PCTLOWWAGE`     | % earning low wages                      | Controls for income-related health disparities           |
 | `NatWalkInd`       | National Walkability Index               | **Primary variable of interest**                         |
 
-**📍 What is NatWalkInd?**  
+# What is NatWalkInd?  
 The **National Walkability Index** is a composite EPA score (0–20 scale) that measures:
 - Street connectivity (intersection density)  
 - Land use diversity  
@@ -35,7 +35,7 @@ The **National Walkability Index** is a composite EPA score (0–20 scale) that 
 
 Higher scores = greater walkability.
 
-**📈 Key Findings**  
+# Key Findings 
 - Adjusted R² = 0.385 — the model explains ~38.5% of variance in obesity rates.  
 - **Walkability (`NatWalkInd`) was statistically significant** (p < 0.001).  
 - **Coefficient = -0.8663**: Each 1-point increase in walkability lowers obesity by ~0.87 percentage points.
