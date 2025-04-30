@@ -6,7 +6,9 @@ collection: portfolio
 
 [View Project on Github](https://github.com/diogoviveiros/Topic-Similarity-Clustering)
 
-This project is a Flask-based web app that performs topic clustering through uploading a CSV file — ideal for grouping together projects, themes, or other elements from comma separated files. 
+This project is a Flask-based web app that performs topic clustering through uploading a CSV file — ideal for grouping together projects, themes, or other elements from comma separated files.
+
+It implements a transformer architecture-based word embedder to transform each row of text-based data into a vector located in a pre-trained dataset that has learned contextual queues. We can then compare the cosine similarity between all the vectors in relation to each other in order to get the relevant distance between embeddings, telling us how contextually similar these texts are. Cosine similarity is calculated by taking the dot product of two vectors and divide them by the product of their magnitudes, allowing us to know where a vector is in relation to another. Once the similarities are calculated, we get scores between 0 and 1, where the higher score notes a closer match. We can then take an agglomerative clustering algorithm to group these scores either based on number of clusters or by setting a specific threshold of *1 - cosine_similarity*, and then have the algorithm figure out how many clusters should exist. For example, if we want clusters where the cosine similarity between all rows is 0.65 or higher, we would input a threshold of 0.35. The algorithm then performs the clustering and outputs a CSV file to be downloaded.    
 
 # How It Works
 - Upload a `.csv` file. Make sure that there are two columns called `Title` and `Description`. These two columns will be merged into one group of sentences.
