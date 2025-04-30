@@ -1,6 +1,6 @@
 ---
 title: "Analysis of County Walkability Ratings on Obesity Outcomes"
-excerpt: "Regression analysis of walkability's impact on obesity across U.S. counties<br/>"
+excerpt: "Regression analysis of walkability's impact on obesity across U.S. counties using Python and Jupyter Notebook (2025)<br/>"
 collection: portfolio
 ---
 [View Project on Github](https://github.com/diogoviveiros/Walkability-vs-Obesity)
