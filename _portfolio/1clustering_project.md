@@ -1,6 +1,6 @@
 ---
 title: "Topic Similarity Clustering"
-excerpt: "Flask app for clustering topics from CSV files using a transformer word vectorisation combined with hierarchichal clustering methods."
+excerpt: "Python app with Flask Web UI for clustering topics from CSV files using a transformer word vectorisation combined with hierarchichal clustering methods. (2025)"
 collection: portfolio
 ---
 
