@@ -36,7 +36,7 @@ The **National Walkability Index** is a composite EPA score (0–20 scale) that 
 Higher scores = greater walkability.
 
 # Key Findings 
-- Adjusted R² = 0.385 — the model explains ~38.5% of variance in obesity rates. This validates our distribution graph of Obesity distribution between High and Low Walkability areas (separated by a NatWalkInd of 10.5): ![Obesity Distribution Graph](Obesity_Distribution_Graph.png) 
+- Adjusted R² = 0.385 — the model explains ~38.5% of variance in obesity rates. This validates our distribution graph of Obesity distribution between High and Low Walkability areas (separated by a NatWalkInd of 10.5): ![Obesity Distribution Graph](/images/Obesity_Distribution_Graph.png) 
 - **Walkability (`NatWalkInd`) was statistically significant** (p < 0.001).  
 - **Coefficient = -0.8663**: Each 1-point increase in walkability lowers obesity by ~0.87 percentage points.
 
