@@ -1,6 +1,6 @@
 ---
 title: "Advanced Paste Clipboard for Windows"
-excerpt: "A C# coded productivity tool with a WPF (Windows Presentation Foundation) UI. Designed to reduce context-switching in repetitive communication tasks, like emails and scripting. Developed in collaboration with the Microsoft PowerToys team, who are committed to bringing power users a set of open source tool packages for productivity improvements."
+excerpt: "A C# coded productivity tool with a WPF (Windows Presentation Foundation) UI. Designed to reduce context-switching in repetitive communication tasks, like emails and scripting. Developed in collaboration with the Microsoft PowerToys team, who are committed to bringing power users a set of open source tool packages for productivity improvements. (2024)"
 collection: portfolio
 ---
 [View Project on Github](https://github.com/diogoviveiros/EnhancedClipboardWPF). 
