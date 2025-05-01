@@ -1,6 +1,6 @@
 ---
 title: "Robotics: Turtlebot Tag"
-excerpt: "Coding in Python to program two robots - a chaser and a runner - to play a game of tag with each other. Developed path prediction algorithm to predict runner's future location"
+excerpt: "Coding in Python to program two robots - a chaser and a runner - to play a game of tag with each other. Developed path prediction algorithm for chaser to predict runner's future location (2022)"
 collection: portfolio
 ---
 [View Project on Github](https://github.com/diogoviveiros/Tag_Final_Project)
