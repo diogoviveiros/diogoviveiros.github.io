@@ -57,9 +57,13 @@ Key Question
    
   - Spatial features such as Dane_lat and Dane_long proved to be quite important, which makes sense. They had significant negative coefficients across all models. This suggests that homes located further south or west (coastal areas) tended to be more expensive.
 
+    **Prediction Graph (Red is Prediction, Gray boxes are validation):**
+
 ## Random Forest
 
    Showed weaker performance in the distribution tails (underestimated high-end values), likely due to ensemble averaging behavior. Due to this, I decided to focus on the OLS model for my final prediction of the testing datasets. 
+
+   **Prediction Graph (Red is Prediction, Gray boxes are validation):** 
 
 ## Final Prediction
 
