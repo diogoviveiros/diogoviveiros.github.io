@@ -32,14 +32,14 @@ Key Question
   - **Multicollinearity checks:** First, I did multicollinearity filtering by calculating the Variance Inflation Factor for each feature. Any features that had a baseline value of 5 I simply kept. With other features that had higher values, I applied more observational and common sense methodologies. 
   - **Common sense feature removal:** By observing several features that had high collinearity, we can remove ones that make sense that they would be correlated. For example, I removed *shape_area* since we already have *shape_length* feature which had a lower VIF. Removing *shape_area* made *shape_length* have a VIF under 5, so it was kept. I did this process for a variety of features, such as:
 
-    | **Removed (High VIF)**    | **Removed Because:**                                             | **Kept Instead**         | **Kept Because:**                                                                 |
+| **Removed (High VIF)**    | **Removed Because:**                                        | **Instead Kept:**        | **Kept Because:**                                                             |
 |---------------------------|-------------------------------------------------------------|--------------------------|-------------------------------------------------------------------------------|
-| `shape_area`              | Highly correlated with `shape_length`                       | `shape_length`           | Measures parcel size but with less collinearity; still captures lot scale.   |
+| `shape_area`              | Highly correlated with `shape_length`                       | `shape_length`           | Measures parcel size but with less collinearity; still captures lot scale.    |
 | `story_height`            | Correlated with multiple area features                      | `ground_floor_area`, `t2nd_floor_area`, `t3rd_floor_area` | These provide more direct and interpretable measurements of size per floor. |
 | `effective_yr`            | Highly correlated with `construction_yr`                    | `construction_yr`        | Both reflect age; `construction_yr` is more transparent and interpretable.   |
 | `dwelling_units`          | Constant value (1 for all rows), no variance                | *None (removed outright)*| Dropped due to zero variance — added no information to either model.         |
 | `above_3rd_floor_area`    | Constant value (0 for all rows)                             | *None (removed outright)*| Dropped as it had no variation across observations.                          |
-| `shape_area`, `lot_size` (potential conflict) | Potentially measuring similar land scale | `lot_size`               | `lot_size` may better capture usable land parcel, often more interpretable.  |
+| `shape_area`, `lot_size` (potential conflict) | Potentially measuring similar land scale | `lot_size`               | `lot_size` may better capture usable land parcel, often more interpretable. |
 
   - **High P-Values:** After removing high VIF variables, I then focused on running the model several times in order to find values that had a P-Value greater than 0.05 and were therefore statistically insignificant.
 
@@ -56,7 +56,6 @@ Key Question
       - aquality_class.
    
   - Spatial features such as Dane_lat and Dane_long proved to be quite important, which makes sense. They had significant negative coefficients across all models. This suggests that homes located further south or west (coastal areas) tended to be more expensive.
-
 
 ## Random Forest
 
